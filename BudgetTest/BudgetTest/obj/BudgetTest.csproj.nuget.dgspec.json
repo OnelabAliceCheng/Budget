@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alice.cheng\\source\\repos\\BudgetTest\\BudgetTest\\BudgetTest.csproj": {}
+    "C:\\91 coaching\\Budget\\BudgetTest\\BudgetTest\\BudgetTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alice.cheng\\source\\repos\\BudgetTest\\BudgetTest\\BudgetTest.csproj": {
+    "C:\\91 coaching\\Budget\\BudgetTest\\BudgetTest\\BudgetTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alice.cheng\\source\\repos\\BudgetTest\\BudgetTest\\BudgetTest.csproj",
+        "projectUniqueName": "C:\\91 coaching\\Budget\\BudgetTest\\BudgetTest\\BudgetTest.csproj",
         "projectName": "BudgetTest",
-        "projectPath": "C:\\Users\\alice.cheng\\source\\repos\\BudgetTest\\BudgetTest\\BudgetTest.csproj",
+        "projectPath": "C:\\91 coaching\\Budget\\BudgetTest\\BudgetTest\\BudgetTest.csproj",
         "packagesPath": "C:\\Users\\alice.cheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alice.cheng\\source\\repos\\BudgetTest\\BudgetTest\\obj\\",
+        "outputPath": "C:\\91 coaching\\Budget\\BudgetTest\\BudgetTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alice.cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,7 +29,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\91 coaching\\Budget\\Budget\\Budget\\BudgetData.csproj": {
+                "projectPath": "C:\\91 coaching\\Budget\\Budget\\Budget\\BudgetData.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -72,6 +76,68 @@
               "version": "[3.2.0, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\91 coaching\\Budget\\Budget\\Budget\\BudgetData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\91 coaching\\Budget\\Budget\\Budget\\BudgetData.csproj",
+        "projectName": "BudgetData",
+        "projectPath": "C:\\91 coaching\\Budget\\Budget\\Budget\\BudgetData.csproj",
+        "packagesPath": "C:\\Users\\alice.cheng\\.nuget\\packages\\",
+        "outputPath": "C:\\91 coaching\\Budget\\Budget\\Budget\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alice.cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget2023.owgps.net/nuget/oneworks/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",

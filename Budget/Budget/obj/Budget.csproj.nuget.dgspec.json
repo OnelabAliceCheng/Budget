@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alice.cheng\\source\\repos\\Budget\\Budget\\Budget.csproj": {}
+    "C:\\91 coaching\\Budget\\Budget\\Budget\\Budget.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alice.cheng\\source\\repos\\Budget\\Budget\\Budget.csproj": {
+    "C:\\91 coaching\\Budget\\Budget\\Budget\\Budget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alice.cheng\\source\\repos\\Budget\\Budget\\Budget.csproj",
+        "projectUniqueName": "C:\\91 coaching\\Budget\\Budget\\Budget\\Budget.csproj",
         "projectName": "Budget",
-        "projectPath": "C:\\Users\\alice.cheng\\source\\repos\\Budget\\Budget\\Budget.csproj",
+        "projectPath": "C:\\91 coaching\\Budget\\Budget\\Budget\\Budget.csproj",
         "packagesPath": "C:\\Users\\alice.cheng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alice.cheng\\source\\repos\\Budget\\Budget\\obj\\",
+        "outputPath": "C:\\91 coaching\\Budget\\Budget\\Budget\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alice.cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",

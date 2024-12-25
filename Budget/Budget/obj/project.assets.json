@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alice.cheng\\source\\repos\\Budget\\Budget\\Budget.csproj",
-      "projectName": "Budget",
-      "projectPath": "C:\\Users\\alice.cheng\\source\\repos\\Budget\\Budget\\Budget.csproj",
+      "projectUniqueName": "C:\\91 coaching\\Budget\\Budget\\Budget\\BudgetData.csproj",
+      "projectName": "BudgetData",
+      "projectPath": "C:\\91 coaching\\Budget\\Budget\\Budget\\BudgetData.csproj",
       "packagesPath": "C:\\Users\\alice.cheng\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alice.cheng\\source\\repos\\Budget\\Budget\\obj\\",
+      "outputPath": "C:\\91 coaching\\Budget\\Budget\\Budget\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alice.cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,15 @@
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\BudgetData.GeneratedMSBuildEditorConfig.editorconfig
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\BudgetData.AssemblyInfoInputs.cache
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\BudgetData.AssemblyInfo.cs
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\BudgetData.csproj.CoreCompileInputs.cache
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\BudgetData.sourcelink.json
+C:\91 coaching\Budget\Budget\Budget\bin\Debug\net6.0\BudgetData.exe
+C:\91 coaching\Budget\Budget\Budget\bin\Debug\net6.0\BudgetData.deps.json
+C:\91 coaching\Budget\Budget\Budget\bin\Debug\net6.0\BudgetData.runtimeconfig.json
+C:\91 coaching\Budget\Budget\Budget\bin\Debug\net6.0\BudgetData.dll
+C:\91 coaching\Budget\Budget\Budget\bin\Debug\net6.0\BudgetData.pdb
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\BudgetData.dll
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\refint\BudgetData.dll
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\BudgetData.pdb
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\BudgetData.genruntimeconfig.cache
+C:\91 coaching\Budget\Budget\Budget\obj\Debug\net6.0\ref\BudgetData.dll
