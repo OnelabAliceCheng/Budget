@@ -24,7 +24,7 @@ namespace BudgetTest
         [TestCaseSource(nameof(DateCases))]
         public void GetInvailedDate(DateTime start, DateTime end)
         {
-            var expect =_budgetService.Query(start,end);
+            var expect = _budgetService.Query(start, end);
             Assert.AreEqual(0, expect);
         }
 
@@ -36,13 +36,13 @@ namespace BudgetTest
                 new BudgetData.DataModels.Budget("202412", 3100)
             });
 
-            DateTime start= new DateTime(2024,12,1);
-            DateTime end= new DateTime(2024,12,31);
+            DateTime start = new DateTime(2024, 12, 1);
+            DateTime end = new DateTime(2024, 12, 31);
 
             var result = _budgetService.Query(start, end);
             Assert.AreEqual(3100, result);
-        }        
-        
+        }
+
         [Test]
         public void GetMonthlyBudget_ShouldReturnDaysInSameMonth()
         {
@@ -51,11 +51,28 @@ namespace BudgetTest
                 new BudgetData.DataModels.Budget("202412", 3100)
             });
 
-            DateTime start= new DateTime(2024,12,1);
-            DateTime end= new DateTime(2024,12,5);
+            DateTime start = new DateTime(2024, 12, 1);
+            DateTime end = new DateTime(2024, 12, 5);
 
             var result = _budgetService.Query(start, end);
             Assert.AreEqual(500, result);
+        }
+
+        [Test]
+        public void GetMonthlyBudget_ShouldReturnDaysInDifferentMonth()
+        {
+            _budgetRepo.GetAll().Returns(new List<BudgetData.DataModels.Budget>
+            {
+                new BudgetData.DataModels.Budget("202312", 3100),
+                new BudgetData.DataModels.Budget("202401", 310),
+                new BudgetData.DataModels.Budget("202402", 2900)
+            });
+
+            DateTime start = new DateTime(2023, 12, 1);
+            DateTime end = new DateTime(2024, 2, 5);
+
+            var result = _budgetService.Query(start, end);
+            Assert.AreEqual(3910, result);
         }
 
 
